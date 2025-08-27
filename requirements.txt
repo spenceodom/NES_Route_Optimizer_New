@@ -1,7 +1,7 @@
 streamlit==1.28.2
-pandas==2.0.3
-numpy==1.25.2
-ortools==9.8.3296
+pandas==2.2.2
+numpy==1.26.4
+ortools==9.10.4067
 geopy==2.4.0
 folium==0.15.1
 streamlit-folium==0.17.0
