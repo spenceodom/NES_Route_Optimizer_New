@@ -1,0 +1,10 @@
+streamlit==1.28.2
+pandas==2.1.4
+numpy==1.24.3
+ortools==9.8.3296
+geopy==2.4.0
+folium==0.15.1
+streamlit-folium==0.17.0
+requests==2.31.0
+python-dotenv==1.0.0
+googlemaps==4.10.0
