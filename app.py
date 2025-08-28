@@ -14,6 +14,14 @@ import time
 from datetime import datetime
 import base64
 
+# Add error handling for missing dependencies
+try:
+    import matplotlib
+    matplotlib.use('Agg')  # Use non-interactive backend
+except ImportError:
+    st.error("matplotlib is required but not installed. Please contact support.")
+    st.stop()
+
 # Utility functions
 def geocode_addresses(df, api_key):
     """Geocode addresses using Google Maps API"""
